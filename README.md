@@ -2,20 +2,20 @@
 
 O projeto consiste em desenvolver o jogo zombie dice utilizando principalmente variáveis e condicionais, ou seja, utilizando conceitos mais básicos do python
 
-Regras do jogo
+##Regras do jogo
 - O jogo possui 13 dados e esses dados ficam dentro de um tubo
 - É preciso marcar os pontos de alguma maneira
 - É necessário pelo menos dois jogadores OK
 - O primeiro jogador a jogar será aquele que venceu a última partida ou falar cérebros da maneira mais zumbi possivel
 - 13 DADOS: cada um com 6 lados
-        Dado Verde: 3 cérebros, 1 tiro, 2 passos
-        Dado Vermelho: 1 cérebro, 3 tiros, 2 passos
-        Dado Amarelo: 2 cérebros, 2 tiros, 2 passos
+  Dado Verde: 3 cérebros, 1 tiro, 2 passos
+  Dado Vermelho: 1 cérebro, 3 tiros, 2 passos
+  Dado Amarelo: 2 cérebros, 2 tiros, 2 passos
 
 - TUBO: No tubo existem
-        6 dados verdes
-        4 dados amarelos
-        3 dados vermelhos
+  6 dados verdes
+  4 dados amarelos
+  3 dados vermelhos
 
 - No seu turno agite o tubo e pegue 3 dados.
 - Rolar os 3 dados e veja a face que ficou para cima
