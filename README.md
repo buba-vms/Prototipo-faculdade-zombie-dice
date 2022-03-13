@@ -2,7 +2,7 @@
 
 O projeto consiste em desenvolver o jogo zombie dice utilizando principalmente variáveis e condicionais, ou seja, utilizando conceitos mais básicos do python
 
-##Regras do jogo
+Regras do jogo
 - O jogo possui 13 dados e esses dados ficam dentro de um tubo
 - É preciso marcar os pontos de alguma maneira
 - É necessário pelo menos dois jogadores OK
