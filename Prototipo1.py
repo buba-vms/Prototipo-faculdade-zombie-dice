@@ -39,7 +39,7 @@ turno_do_jogador = 0
 cerebros = 0
 espingardas = 0
 passos = 0
-my_list = {}
+pontuacao_jogadores = {}
 # loop de turno
 while True:
     print(f"Turno do jogador {players_list[turno_do_jogador]}\n")
@@ -86,7 +86,7 @@ while True:
         input("\nVocê deseja jogar outro turno? Digite 'S' para sim e 'N' para passar a vez: \n")).strip().upper()
     if continuar == "N":
         #pontuação do jogadore: quantidade de cérebros que comeu
-        my_list[players_list[turno_do_jogador]] = f"{cerebros} Pontos"
+        pontuacao_jogadores[players_list[turno_do_jogador]] = f"{cerebros} Pontos"
         turno_do_jogador += 1
         dados_na_mao = []
         espingardas = 0
@@ -94,7 +94,7 @@ while True:
         passos = 0
         if turno_do_jogador == len(players_list):
             print("Jogo encerrado!!!")
-            print(my_list)
+            print(pontuacao_jogadores)
             break
     else:
             # Zera as variáveis
