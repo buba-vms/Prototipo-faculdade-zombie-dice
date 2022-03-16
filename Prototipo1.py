@@ -18,7 +18,7 @@ while (n_players < 2):
         print("\nÉ necessário digitar um número interi e ter pelo menos 2 zombies para iniciar!!!")
 # Inserindo nome dos jogadores
 for i in range(n_players):
-    name = str(input(f"Digite o nome do Infecatado Nº{i + 1}: ").title())
+    name = str(input(f"Digite o nome do Infectado Nº{i + 1}: ").title())
     players_list.append(name)
 
 print("\n" + "(¬x_x)¬ ( ¬º-°)¬ (¬x_x)¬ ヽ(ﾟДﾟ)ﾉ [¬º-°]¬ (¬x_x)¬ [¬º-°]¬ ヽ(ﾟДﾟ)ﾉ \n")
@@ -82,8 +82,21 @@ while True:
     # print para verificar se lista está funcionando corretamente
     print(lados_sorteados)
     # Opção parar a rodada e marcar os pontos ou continuar, o jogo encerra quando cada jogador jogar uma vez
-    continuar = str(
-        input("\nVocê deseja jogar outro turno? Digite 'S' para sim e 'N' para passar a vez: \n")).strip().upper()
+    if espingardas >= 3:
+        pontuacao_jogadores[players_list[turno_do_jogador]] = "0 Pontos"
+        turno_do_jogador += 1
+        dados_na_mao = []
+        espingardas = 0
+        cerebros = 0
+        passos = 0
+        print("\n ▄︻┳︼一一一 Você tomou 3 tiros e perdeu a rodada, próximo jogador 一一一一一一\n")
+        if turno_do_jogador == n_players:
+            print(f"\n▄︻┳︼一一一 Jogo encerrado!!! 一一一一一一{'(¬x_x)'* (n_players)}¬一一一一一一一一一一一一\n")
+            print(pontuacao_jogadores)
+            break
+
+
+    continuar = str(input("\nVocê deseja jogar outro turno? Digite 'S' para sim e 'N' para passar a vez: \n")).strip().upper()
     if continuar == "N":
         #pontuação do jogadore: quantidade de cérebros que comeu
         pontuacao_jogadores[players_list[turno_do_jogador]] = f"{cerebros} Pontos"
@@ -92,12 +105,14 @@ while True:
         espingardas = 0
         cerebros = 0
         passos = 0
-        if turno_do_jogador == len(players_list):
+        if turno_do_jogador == n_players:
             print("Jogo encerrado!!!")
             print(pontuacao_jogadores)
             break
+
     else:
-            # Zera as variáveis
-            print("Iniciando mais uma rodada do jogador atual\n")
-            dados_na_mao = []
-            msg_cordosdados = []
+        # Zera as variáveis
+        print("Iniciando mais uma rodada do jogador atual\n")
+        dados_na_mao = []
+        msg_cordosdados = []
+
