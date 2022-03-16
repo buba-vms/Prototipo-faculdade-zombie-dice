@@ -31,7 +31,7 @@ pontos (cérebros) coletados durante o turno.
 
     - Se escolher continuar: 
         - você não devolve os dados ao tubo (REGRA NÃO IMPLEMENTADA)
-        - vocÊ sempre rola três por vez
+        - você sempre rola três por vez
         - primeiro pega os dados que tem a face PEGADAS virada para cima depois completa os dados na mão se necessário
         - depois de pegar nove dados você não pode decidir não jogar (REGRA NÃO IMPLEMENTADA)
 
