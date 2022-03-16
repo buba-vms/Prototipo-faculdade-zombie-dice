@@ -1,12 +1,12 @@
 # Prototipo-faculdade-zombie-dice
 
-O projeto consiste em desenvolver o jogo zombie dice utilizando principalmente variáveis e condicionais, ou seja, utilizando conceitos mais básicos do python
+O projeto consiste em desenvolver o jogo zombie dice em uma versão simplifacada, na qual cada jogador joga uma rodada, utilizando principalmente variáveis e condicionais, ou seja, utilizando conceitos mais básicos do python
 
 Regras do jogo
 - O jogo possui 13 dados e esses dados ficam dentro de um tubo
 - É preciso marcar os pontos de alguma maneira
-- É necessário pelo menos dois jogadores OK
-- O primeiro jogador a jogar será aquele que venceu a última partida ou falar cérebros da maneira mais zumbi possivel
+- É necessário pelo menos dois jogadores
+
 - 13 DADOS: cada um com 6 lados
   Dado Verde: 3 cérebros, 1 tiro, 2 passos
   Dado Vermelho: 1 cérebro, 3 tiros, 2 passos
