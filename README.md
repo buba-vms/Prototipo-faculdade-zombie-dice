@@ -21,20 +21,19 @@ Regras do jogo
 - Rolar os 3 dados e veja a face que ficou para cima
     - Cérebro - separe um dado e ganhe um ponto
     - Espingarda - Sua vitma revidou, menos uma vida (total 3 vidas no turno)
-    - Pegadas - Manter o dado na mão
+    - Pegadas - Manter o dado na mão (REGRA NÃO IMPLEMENTADA)
     - O jogador precisa rodar sempre pelo menos 3 dados, caso o tubo fique vazio, anote a quantidade de cérebros,
-e coloque os dados de volta na tubo, exceto os
-que tiverem a face espingarda para cima.
+e coloque os dados de volta na tubo, exceto os que tiverem a face espingarda para cima. (REGRA NÃO IMPLEMENTADA)
 
     - se em qualquer momento do jogo tiver 3 espignardas viradas para cima, seu turno acabou e você perde todos os
 pontos (cérebros) coletados durante o turno.
     - Caso contrário, você pode optar por parar e marcar pontos(1 cérebro = 1 ponto), ou, continuar a jogar
 
-    - Se escolher continuar:
-        - você não devolve os dados ao tubo
+    - Se escolher continuar: 
+        - você não devolve os dados ao tubo (REGRA NÃO IMPLEMENTADA)
         - vocÊ sempre rola três por vez
         - primeiro pega os dados que tem a face PEGADAS virada para cima depois completa os dados na mão se necessário
-        - depois de pegar nove dados você não pode decidir não jogar
+        - depois de pegar nove dados você não pode decidir não jogar (REGRA NÃO IMPLEMENTADA)
 
     - Jogue até alguem fazer 13 pontos, termine a rodada, todos devem jogar o mesmo número de rodadas, quem tiver mais
-     cérebros, é o vencedor
+     cérebros, é o vencedor (REGRA NÃO IMPLEMENTADA)
